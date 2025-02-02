@@ -1,3 +1,7 @@
+<div style="text-align:center;">
+   <img src="icon.png" width="84" />
+</div>
+
 # BlackSwanDev - WooCommerce Product ID Extractor
 
 The **WooCommerce Product ID Extractor** is a Firefox extension that helps you easily extract and copy the WooCommerce product ID, variation ID, and REST API endpoint from product pages. Designed for WooCommerce developers and administrators, this tool simplifies the process of identifying product data without needing to inspect the page source.
