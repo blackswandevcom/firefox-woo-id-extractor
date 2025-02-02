@@ -1,8 +1,8 @@
 {
   "manifest_version": 2,
-  "name": "BlackSwanDev - WooCommerce Product ID Extractor",
+  "name": "BlackSwanDev - WooPID",
   "version": "1.0",
-  "description": "Easily extract and copy the WooCommerce product ID, variation ID, and REST API endpoint.",
+  "description": "BlackSwanDev - WooCommerce Product ID Extractor : Easily extract and copy the WooCommerce product ID, variation ID, and REST API endpoint.",
   "permissions": ["activeTab", "tabs", "https://*/*", "http://*/*"],
   "content_scripts": [
     {
