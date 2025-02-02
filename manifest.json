@@ -1,8 +1,8 @@
 {
   "manifest_version": 2,
-  "name": "Woo Product ID Extractor",
+  "name": "BlackSwanDev - WooCommerce Product ID Extractor",
   "version": "1.0",
-  "description": "Toggle product info box on the page",
+  "description": "Easily extract and copy the WooCommerce product ID, variation ID, and REST API endpoint.",
   "permissions": ["activeTab", "tabs", "https://*/*", "http://*/*"],
   "content_scripts": [
     {
@@ -16,6 +16,6 @@
   },
   "browser_action": {
     "default_icon": "icon.png",
-    "default_title": "Toggle Product Info"
+    "default_title": "Toggle WooCommerce Product ID Extractor"
   }
 }

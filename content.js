@@ -53,7 +53,7 @@ function initVariationTracking() {
   }
   injectStylesheet();
 
-  $("body").append(`<div id="bsdev-pid">BlackSwanDev<br>WooProductID</div>`);
+  $("body").append(`<div id="bsdev-pid" data-man="BlackSwanDev - WooCommerce Product ID Extractor">BlackSwanDev<br>WooProductID</div>`);
 
   // Copy to clipboard function
   function copy_clipboard(productId) {

@@ -1,7 +1,7 @@
 /*
  * @Author: Amirhossein Hosseinpour <https://amirhp.com>
  * @Last modified by: amirhp-com <its@amirhp.com>
- * @Last modified time: 2025/02/02 11:02:01
+ * @Last modified time: 2025/02/02 11:42:38
  */
 
 copy {
@@ -65,4 +65,10 @@ bsdev-toast:empty {
 
 bsdev-toast.active {
   transform: translateX(-50%) translateY(-20%);
+}
+
+#bsdev-pid::before {
+	content: attr(data-man);
+	font-weight: bold;
+  display: block;
 }
