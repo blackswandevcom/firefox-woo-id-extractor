@@ -1,0 +1,68 @@
+/*
+ * @Author: Amirhossein Hosseinpour <https://amirhp.com>
+ * @Last modified by: amirhp-com <its@amirhp.com>
+ * @Last modified time: 2025/02/02 11:02:01
+ */
+
+copy {
+  direction: ltr;
+  text-align: left;
+  unicode-bidi: bidi-override;
+  cursor: pointer;
+}
+
+copy:hover {
+  -webkit-text-decoration: underline dotted 2px;
+  text-decoration: underline dotted 2px;
+  -webkit-text-decoration-skip-ink: none;
+  text-decoration-skip-ink: none;
+  color: yellow;
+}
+
+#bsdev-pid {
+  position: fixed;
+  bottom: 8px;
+  right: 8px;
+  z-index: 999999999999;
+  min-width: 200px;
+  min-height: 50px;
+  border-radius: 8px;
+  padding: 8px 16px;
+  text-align: left;
+  font-family: Monospace;
+  font-size: 12px;
+  display: block;
+  background: rgba(0, 0, 0, .8);
+  color: #fff;
+  box-shadow: 0 2px 11px 0 rgba(0, 0, 0, 0.5);
+  -webkit-backdrop-filter: blur(10px);
+  backdrop-filter: blur(10px);
+  -moz-backdrop-filter: blur(10px);
+}
+
+bsdev-toast {
+  display: block;
+  position: fixed;
+  bottom: 0;
+  unicode-bidi: bidi-override;
+  direction: ltr;
+  padding: 0.5rem 2rem;
+  background: #2b2b2b;
+  color: #e8e8e8;
+  border-radius: 57px;
+  text-align: center;
+  left: calc(50%);
+  box-shadow: 0 2px 11px 0 rgba(0, 0, 0, 0.5);
+  cursor: pointer;
+  transition: all 0.28s ease-in-out;
+  transform: translateX(-50%) translateY(110%);
+  z-index: 9999999999999999 !important;
+}
+
+bsdev-toast:empty {
+  display: none;
+}
+
+bsdev-toast.active {
+  transform: translateX(-50%) translateY(-20%);
+}
